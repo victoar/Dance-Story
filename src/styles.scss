@@ -1,1 +1,38 @@
 /* You can add global styles to this file, and also import other style files */
+
+*, ::before, ::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  height: 100%;
+  width: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: 'CharmRegular';
+  src: url('./assets/fonts/Charm-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CharmBold';
+  src: url('./assets/fonts/Charm-Bold.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DeliusRegular';
+  src: url('./assets/fonts/Delius-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+

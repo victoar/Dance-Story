@@ -1,0 +1,14 @@
+<app-header></app-header>
+
+<div class="main-content">
+  <div *ngFor="let danceGenre of danceGenres" class="dance-genre"
+       (mouseenter)="playMusic(danceGenre.song)"
+       (mouseleave)="stopMusic()"
+       [id]="danceGenre.id"
+       [style.background-color]="danceGenre.color">
+    <h2>{{danceGenre.title}}</h2>
+    <p>{{danceGenre.description}}</p>
+  </div>
+</div>
+
+<app-footer></app-footer>

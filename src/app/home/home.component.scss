@@ -1,0 +1,61 @@
+
+.main-content {
+  position: relative;
+  padding-top: 176px;
+}
+
+p {
+  font-family: "DeliusRegular", serif;
+  font-size: 20px;
+}
+
+.dance-genre {
+  width: 100%;
+  padding: 80px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+
+h2 {
+  font-family: "CharmBold", serif;
+}
+
+@media screen and (max-width: 1200px){
+  .dance-genre {
+    padding: 50px;
+  }
+}
+
+
+@media (min-width: 601px) and (max-width: 1000px){
+  .main-content {
+    padding-top: 207px;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 600px){
+  .main-content {
+    padding-top: 247px;
+  }
+}
+
+@media screen and (max-width: 500px){
+  .main-content {
+    padding-top: 300px;
+  }
+}
+
+
+@media screen and (max-width: 600px){
+  .dance-genre {
+    padding: 40px 50px;
+
+    p {
+      font-size: 16px;
+    }
+  }
+}
